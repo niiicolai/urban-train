@@ -10,7 +10,7 @@ const Home = (props) => {
             setData(props.data);
             setRecords(props.data.record);
         }
-    });
+    }, [props]);
 
     return (
         <>

@@ -7,15 +7,16 @@ function Records(props) {
     const [name, setName] = useState("");
     const [countries, setCountries] = useState([]);
 
-    useEffect(() => {
+    useEffect(() => {;
+        
         setName(props.responseName);
 
         if (props.countries != null) {
             setCountries(props.countries);
         }
-    });
+    }, [props]); 
 
-    if (props.countries.length > 0) {
+    if (countries.length > 0) {
         return (
             <>
                 <hr />

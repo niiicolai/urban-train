@@ -13,7 +13,7 @@ const WebService = () => {
     const [error, setError] = useState({});
 
     const fetchNationality = () => {
-        const empty = name.length == 0;
+        const empty = name.length === 0;
         const error = empty ? {message: "Indtast et navn!"} : {};
         setError(error);
         if (empty) return;

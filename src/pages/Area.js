@@ -17,8 +17,8 @@ const Area = (props) => {
             setInformation(props.data.record[id].information);
             setTitle(props.data.record[id].title);
         }
-    });
-    
+    }, [props, id]);
+     
     return (
         <>
             <h5 className="mt-3">{title}</h5>
@@ -29,8 +29,8 @@ const Area = (props) => {
                         <Button key={index}
                             variant="secondary"
                             onClick={() => setSelectedIndex(index)}
-                            disabled={selectedIndex == index}
-                            aria-expanded={selectedIndex == index}>
+                            disabled={selectedIndex === index}
+                            aria-expanded={selectedIndex === index}>
                             {index + 1}
                         </Button>
                     );
@@ -41,7 +41,7 @@ const Area = (props) => {
                 {information.map((data, index) => {
                     return (
                         <Record key={index}
-                            open={selectedIndex == index}
+                            open={selectedIndex === index}
                             data={data}
                         />
                     );

@@ -8,7 +8,7 @@ function AlertMessage(props) {
         if (props.error.message != null) {
             setError(props.error);
         }
-    });
+    }, [props]);
 
     if (error.message == null) {
         return <></>;

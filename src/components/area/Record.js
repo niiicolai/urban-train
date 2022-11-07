@@ -1,4 +1,4 @@
-import { useEffect, useState, Fragment } from "react";
+import { useEffect, useState } from "react";
 
 import Collapse from 'react-bootstrap/Collapse';
 import Card from 'react-bootstrap/Card';
@@ -23,7 +23,7 @@ function Record(props) {
 
             setAnswer(answer);
         }
-    });
+    }, [props]);
 
     return (
         <Collapse in={props.open} timeout={0}>

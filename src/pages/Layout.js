@@ -13,7 +13,7 @@ const Layout = (props) => {
         if (props.data != null && props.data.record != null) {
             setRecords(props.data.record);
         }
-    });
+    }, [props]);
 
     return (
         <>

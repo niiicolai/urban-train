@@ -10,7 +10,7 @@ function Record(props) {
             setCountryId(props.country.country_id);
             setProbability(Math.round(props.country.probability * 100))
         }
-    });
+    }, [props]);
 
     return (
         <ListGroup.Item>
