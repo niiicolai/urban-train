@@ -19,7 +19,7 @@ function Records(props) {
         return (
             <>
                 <hr />
-                <h6>Resultat:</h6>
+                <h6>Svar fra webservice:</h6>
                 <p>Input navn: {name}</p>
                 <ListGroup>
                     {countries.map((country, index) => {
