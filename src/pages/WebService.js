@@ -27,9 +27,9 @@ const WebService = () => {
     return (
         <>
             <AlertMessage error={error} />
-            
-            <h5 className="mt-3">Her kan du teste den valgte webservice</h5>
-            <h6 className="mb-3">Forudsig navn ud fra nationalitet</h6>
+
+            <h5 className="mt-3">Her kan du teste den valgte webservice.</h5>
+            <h6 className="mb-3">Bestem nationalitet ud fra navn.</h6>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Control 
                     type="text" 

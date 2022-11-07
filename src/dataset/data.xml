@@ -66,35 +66,51 @@
         </information>
         <information>
             <question>Beskriv Azure Cloud og hvad du kan bruge den til.</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <answer>
+
+            </answer>
         </information>
         <information>
             <question>Hvad er Raspberry Pi og hvad kan det bruges til?</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <answer>
+
+            </answer>
         </information>
         <information>
             <question>Hvilke typer harddiske findes i en computer og hvad er forskellen på dem?</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <answer>
+
+            </answer>
         </information>
         <information>
             <question>Hvilke typer busser findes der i en computer?</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <answer>
+
+            </answer>
         </information>
         <information>
             <question>Computernetværk: Hvad er forskellen på IP og MAC?</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <answer>
+
+            </answer>
         </information>
         <information>
             <question>Hvilke typer kategorier findes der for en PSU og hvad betyder de?</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <answer>
+
+            </answer>
         </information>
         <information>
             <question>Hvad er forskellen på RAM og Harddisk?</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <answer>
+
+            </answer>
         </information>
         <information>
             <question>Hvad er et DBMS MySQL og hvad kan det bruges til?</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <answer>
+
+            </answer>
         </information>
     </record>
 
@@ -102,23 +118,60 @@
         <title>Talsystemer, Debug</title>
         <information>
             <question>Forklar hvad vi kan bruge følgende talsystemer til samt deres navne: (16-, 10-, 2-talsystemet)</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <answer>#h5#16-talssystemet#/h5# En talrække mellem 0-F (også kaldet det hexadecimale talsystemet). 
+                    Bruges blandt andet til IPV6 og MAC adresser.
+                    
+                    #h5#10-talssystemet#/h5# En talrække mellem 0-9 (også kaldet decimalsystemet). 
+                    Bruges til alt fra simpelt matematik til at beskrive klokken.
+                    
+                    #h5#2-talssystemet#/h5# En talrække mellem 0-1 (også kaldet det binære talsystem). 
+                    Bruges til beregninger i en computer. 
+            </answer>
         </information>
         <information>
             <question>Forklar hvordan man regner mellem binær og decimal.</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <answer>Decimal værdien for en bestemt bit kan findes ved at sætte rangeringen for en bit som eksponenten i formlen:  2^n 
+                    Bemærk rangeringen starter fra 0.
+
+                    #strong#Eksempel:#/strong#
+                    1111 1111 kan omregnes til decimal som: 
+                    Decimal = 2^7 + 2^6 + 2^5 + 2^4 + 2^3 + 2^2 + 2^1 + 2^0 
+                    Decimal = 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 
+                    Decimal = 255
+            </answer>
         </information>
         <information>
             <question>Forklar hvordan man regner mellem binær og hexa decimal.</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <answer>1. Når man omregner fra binære tal til hexadecimaler opdeles de binære tal først i grupperinger på 4 bits. 
+                    2. De 4 bits kan i alt repræsentere et decimal tal mellem 0-15. 
+                    3. Når man har omregnet hver gruppering til et decimal tal mellem 0-15, så indsættes hexa decimal værdien (0-F).
+
+                    #strong#Eksempel:#/strong#
+                    1111111111 grupperes til 11 1111 1111 og herefter findes et decimal tal for hver gruppering:
+                    Hexadecimal = 2^1 + 2^0 | 2^3 + 2^2 + 2^1 + 2^0 | 2^3 + 2^2 + 2^1 + 2^0
+                    Hexadecimal = 3 | 15 | 15
+                    Hexadecimal = 3FF
+            </answer>
         </information>
         <information>
             <question>Forklar hvad forkortelserne DDL og DML og hvad de bruges til.</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <answer>Data Definition Language (DDL) og Data Manipulation Language (DML) er en undergruppe af Structured Query Language (SQL). Begge bruges i forbindelse med modificering af en relational database.
+
+                    #h5#Data Definition Language (DDL)#/h5# DDL bliver brugt til at oprette og redigere tabeller.
+                    Dette inkludere DDL statements som CREATE, ALTER, og DROP. 
+
+                    #h5#Data Manipulation Language (DML)#/h5# DML bliver brugt til at oprette og redigere rækker i tabeller.
+                    Dette inkludere DML statements som INSERT, UPDATE, og DELETE.
+            </answer>
         </information>
         <information>
-            <question>Beskriv hvordan man opretter et MySQL DBMS på Azureog hvad vi kan bruge sådan et til.</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <question>Beskriv hvordan man opretter et MySQL DBMS på Azure og hvad vi kan bruge sådan et til.</question>
+            <answer>MySQL DBMS på Azure er en cloudbaseret relational database. Azure har to forskellige modeller for at oprette MySQL databaser, flexible og single server. De to forskellige modeller adskiller sig ved pris, configuration, mm.
+                    En MySQL DBMS på Azure kan for eksempel bruges som en cloudbaseret database for en Spring Boot applikation.
+
+                    #h5#Oprettelse af MySQL DBMS på Azure#/h5# Der findes to metoder til at oprette et nyt MySQL DBMS, enten gennem https://portal.azure.com/ eller via Azure CLI.  
+                    På portalen kan for eksempel søge på Mysql Database også vælge mellem flexible og single, og via Azure CLI kan man bruge terminal kommandoen 'az mysql flexible-server create' efterfulgt af en række options.
+            </answer>
         </information>
     </record>
 
@@ -126,19 +179,27 @@
         <title>Samtidighedsproblematikker</title>
         <information>
             <question>Beskriv hvad der gør et problem til et samtidighedsproblem gerne ift. jeres projekt.</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <answer>
+
+            </answer>
         </information>
         <information>
             <question>Beskriv en type af samtidighedsproblemer og gerne praktisk.</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <answer>
+
+            </answer>
         </information>
         <information>
             <question>Findes der nogle standard løsninger til at løse samtidighedsproblemer på?</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <answer>
+
+            </answer>
         </information>
         <information>
             <question>Beskriv Deadlock.</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <answer>
+                
+            </answer>
         </information>
     </record>
 
