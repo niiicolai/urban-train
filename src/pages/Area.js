@@ -29,6 +29,7 @@ const Area = (props) => {
                         <Button key={index}
                             variant="secondary"
                             onClick={() => setSelectedIndex(index)}
+                            disabled={selectedIndex == index}
                             aria-expanded={selectedIndex == index}>
                             {index + 1}
                         </Button>

@@ -7,23 +7,93 @@
     <record>
         <title>Cloud, Operativ Systemer, Database</title>
         <information>
-            <question>Question 1</question>
+            <question>Beskriv en computers hardware.</question>
+            <answer>Hardware er de fysiskedele som bruges til at samle en computer. De fysiskedele kan opdeles i interne og eksterne harware dele.
+                    #hr# #h5#Intern:#/h5# Internt hardware findes inde i system unit (computerkabinet).
+
+                    #strong#Motherboard:#/strong# 
+                    Det centrale kredsløb, hvor andre dele er tilkoblet.
+                    
+                    #strong#Central Processing Unit (CPU):#/strong# 
+                    Står for at udføre beregninger.
+
+                    #strong#Internal Memory:#/strong# 
+                    Kan opdeles i Random Access Memory og Read Only Memory (ROM).
+                    
+                    #strong#Random Access Memory (RAM):#/strong# 
+                    Står for at opbevare hurtig tilgængelig data (fx variabler i et computerprogram).
+                    
+                    #strong#Read Only Memory (ROM):#/strong# 
+                    Står for at opbevare read-only data (fx boot firmware data).
+                    
+                    #strong#Power supply:#/strong# 
+                    Står for at tilføre strøm til hardware.
+                    
+                    #strong#Graphic Card:#/strong# 
+                    Står for at vise billeder på en skærm.
+                    
+                    #strong#Fan:#/strong# 
+                    Står for at nedkøle hardware dele.
+                    
+                    #strong#Sound Card:#/strong# 
+                    Står for at processere output og input lyd.
+                    
+                    #strong#Expansion Slot:#/strong# 
+                    Findes på motherboard. Kan bruges til at tilkoble grafikkort, lydkort, eller netværkskort.
+                    
+                    #strong#Drives:#/strong# 
+                    Kan opdeles i Harddisk, Floppy Disk Drive, Optical Disk Drive. 
+                    
+                    #strong#Harddisk:#/strong# 
+                    Kan opdeles i Hard Disk Drive (HDD) og Solid State Drive (SSD).
+                    
+                    #strong#Floppy Disk:#/strong# 
+                    En diskette.
+                    
+                    #strong#Optical Disk:#/strong# 
+                    En CD, eller eller DVD. 
+                    #hr# #h5#Ekstern:#/h5# Eksternt hardware findes udenfor system unit (Også kaldet perifer enheder / peripheral devices). Det eksterne hardware kan være input enheder, output enheder, eller lageringsenheder.
+
+                    #strong#Input:#/strong# 
+                    Bruges til at sende instruktioner til computeren (fx keyboard, mouse, scanner, mm.).
+                    
+                    #strong#Output:#/strong# 
+                    Bruges til at modtage computer data i form af lyd, billeder, tekst (fx skærm, printer, højtaler, mm.).
+                    
+                    #strong#Lageringsenheder:#/strong# 
+                    Bruges til at opbevare data (fx optical disk, USB Flash Drive, Floppy Disk, mm.).
+            </answer>
+        </information>
+        <information>
+            <question>Beskriv Azure Cloud og hvad du kan bruge den til.</question>
             <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
         </information>
         <information>
-            <question>Question 2</question>
+            <question>Hvad er Raspberry Pi og hvad kan det bruges til?</question>
             <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
         </information>
         <information>
-            <question>Question 3</question>
+            <question>Hvilke typer harddiske findes i en computer og hvad er forskellen på dem?</question>
             <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
         </information>
         <information>
-            <question>Question 4</question>
+            <question>Hvilke typer busser findes der i en computer?</question>
             <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
         </information>
         <information>
-            <question>Question 5</question>
+            <question>Computernetværk: Hvad er forskellen på IP og MAC?</question>
+            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+        </information>
+        <information>
+            <question>Hvilke typer kategorier findes der for en PSU og hvad betyder de?</question>
+            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+        </information>
+        <information>
+            <question>Hvad er forskellen på RAM og Harddisk?</question>
+            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+        </information>
+        <information>
+            <question>Hvad er et DBMS MySQL og hvad kan det bruges til?</question>
             <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
         </information>
     </record>
@@ -31,15 +101,23 @@
     <record>
         <title>Talsystemer, Debug</title>
         <information>
-            <question>Question 1</question>
+            <question>Forklar hvad vi kan bruge følgende talsystemer til samt deres navne: (16-, 10-, 2-talsystemet)</question>
             <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
         </information>
         <information>
-            <question>Question 2</question>
+            <question>Forklar hvordan man regner mellem binær og decimal.</question>
             <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
         </information>
         <information>
-            <question>Question 3</question>
+            <question>Forklar hvordan man regner mellem binær og hexa decimal.</question>
+            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+        </information>
+        <information>
+            <question>Forklar hvad forkortelserne DDL og DML og hvad de bruges til.</question>
+            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+        </information>
+        <information>
+            <question>Beskriv hvordan man opretter et MySQL DBMS på Azureog hvad vi kan bruge sådan et til.</question>
             <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
         </information>
     </record>
@@ -47,15 +125,19 @@
     <record>
         <title>Samtidighedsproblematikker</title>
         <information>
-            <question>Question 1</question>
+            <question>Beskriv hvad der gør et problem til et samtidighedsproblem gerne ift. jeres projekt.</question>
             <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
         </information>
         <information>
-            <question>Question 2</question>
+            <question>Beskriv en type af samtidighedsproblemer og gerne praktisk.</question>
             <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
         </information>
         <information>
-            <question>Question 3</question>
+            <question>Findes der nogle standard løsninger til at løse samtidighedsproblemer på?</question>
+            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+        </information>
+        <information>
+            <question>Beskriv Deadlock.</question>
             <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
         </information>
     </record>
