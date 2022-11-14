@@ -2,114 +2,90 @@
 <dataset>
     <author>Nicolai Berg Andersen</author>
     <author_email>nico548y@stud.kea.dk</author_email>
-    <complete_date>8/11/2022</complete_date>
+    <complete_date>15/11/2022</complete_date>
 
     <record>
         <title>Cloud, Operativ Systemer, Database</title>
         <information>
             <question>Beskriv en computers hardware.</question>
-            <answer>Hardware er de fysiskedele som bruges til at samle en computer. De fysiskedele kan opdeles i interne og eksterne harware dele.
-                    #hr# #h5#Intern:#/h5# Internt hardware findes inde i system unit (computerkabinet).
+            <answer>Hardware beskriver en computers fysiske dele. Dette inkludere både det interne og eksterne hardware. Det interne hardware findes inde i computerens kabinet (også kaldet system unit). Her findes en lang række dele som alle er tilkoblet til computerens bundkort (motherboard på engelsk). 
 
-                    #strong#Motherboard:#/strong# 
-                    Det centrale kredsløb, hvor andre dele er tilkoblet.
-                    
-                    #strong#Central Processing Unit (CPU):#/strong# 
-                    Står for at udføre beregninger.
+                    Bundkortet er computerens centrale kredsløb. Tilkoblet til bundkortet finder man processor (CPU), Random Access Memory (RAM), Read Only Memory (ROM), strømforsyning, lydkort, grafikkort, harddisk, blæsere, og måske “optical disk drives” som DVD-ROM, CD-ROM, eller “floppy disk drives”.
 
-                    #strong#Internal Memory:#/strong# 
-                    Kan opdeles i Random Access Memory og Read Only Memory (ROM).
-                    
-                    #strong#Random Access Memory (RAM):#/strong# 
-                    Står for at opbevare hurtig tilgængelig data (fx variabler i et computerprogram).
-                    
-                    #strong#Read Only Memory (ROM):#/strong# 
-                    Står for at opbevare read-only data (fx boot firmware data).
-                    
-                    #strong#Power supply:#/strong# 
-                    Står for at tilføre strøm til hardware.
-                    
-                    #strong#Graphic Card:#/strong# 
-                    Står for at vise billeder på en skærm.
-                    
-                    #strong#Fan:#/strong# 
-                    Står for at nedkøle hardware dele.
-                    
-                    #strong#Sound Card:#/strong# 
-                    Står for at processere output og input lyd.
-                    
-                    #strong#Expansion Slot:#/strong# 
-                    Findes på motherboard. Kan bruges til at tilkoble grafikkort, lydkort, eller netværkskort.
-                    
-                    #strong#Drives:#/strong# 
-                    Kan opdeles i Harddisk, Floppy Disk Drive, Optical Disk Drive. 
-                    
-                    #strong#Harddisk:#/strong# 
-                    Kan opdeles i Hard Disk Drive (HDD) og Solid State Drive (SSD).
-                    
-                    #strong#Floppy Disk:#/strong# 
-                    En diskette.
-                    
-                    #strong#Optical Disk:#/strong# 
-                    En CD, eller eller DVD. 
-                    #hr# #h5#Ekstern:#/h5# Eksternt hardware findes udenfor system unit (Også kaldet perifer enheder / peripheral devices). Det eksterne hardware kan være input enheder, output enheder, eller lageringsenheder.
+                    CPU står for Central Processing Unit og er en chip lavet af en masse små transistorer. Den står for at udføre computerens centrale beregninger i form af instruktioner læst fra computerens RAM. En CPU kan have flere fysiske kerner, hvilket betyder den er i stand til at udføre flere opgaver på samme tid. Derudover kan en CPU kan også understøtte “multithreading” hvilken gør den i stand til at bruge en enkelt kernes ressourcer til at udføre instruktioner på samme tid. En CPUs hastighed angives i hertz som angiver hvor mange beregninger pr. sekund den er i stand til.
 
-                    #strong#Input:#/strong# 
-                    Bruges til at sende instruktioner til computeren (fx keyboard, mouse, scanner, mm.).
-                    
-                    #strong#Output:#/strong# 
-                    Bruges til at modtage computer data i form af lyd, billeder, tekst (fx skærm, printer, højtaler, mm.).
-                    
-                    #strong#Lageringsenheder:#/strong# 
-                    Bruges til at opbevare data (fx optical disk, USB Flash Drive, Floppy Disk, mm.).
+                    En computers RAM er en midlertidig data lagringsenhed som kun er i stand til at bevare data så længe computeren er tændt. Den bruges af computer som tidligere beskrevet til at opbevare instruktioner som udføres af en CPU. En computers RAM tilsluttes som regel via et bundkorts “DIMM slots”, men kan findes integreret som for eksempel på Raspberry Pi’s single board computere.
+
+                    ROM er i kontrast til RAM en vedvarende lagringsenhed som indeholder firmware fra producenten som for eksempel bruges ved opstart (boot). ROM er en integreret chip der findes på bundkortet og som navnet antyder er det kun muligt at læse fra enheden.
+
+                    Strømforsyningen (PSU) står for at tilføre strøm til computerens komponenter. Hertil findes forskellige størrelser målt i Watt, samt forskellige typer. PSU står for power supply unit.
+
+                    Lydkort står for at processere input og output lyd. De findes ofte integreret på bundkortet, men kan også tilsluttes via “expansion slots”. Et lydkort består af en “Digital Analog Converter” (DAC) og en “Analog Digital Converter” (ADC) som bruges henholdsvis til at output digitale signaler som analog signaler via højtalere, og optage analoge signaler fra en mikrofon og konvertere dem til digitale signaler. 
+
+                    Et grafikkort står for at processere billeder sendt til en skærm. Ligesom et lydkort, så tilsluttes grafikkortet via et “expansion slot”.
+
+                    Computerens harddisk bruges til at opbevare vedvarende data som for eksempel operativsystemet, billeder, video og andre typer af data.
+
+                    Blæsere bruges til at køle computerens fysiske dele som CPU, grafikkort, osv. for at undgå overophedning. Nedkøling kan også ske via vandkøling i stedet for via luft.
+
+                    Det eksterne hardware er hvad der findes uden for computerens kabinet. Det eksterne hardware kan opdeles i input og output, for eksempel, bruges en skærm til at vise output fra computerens grafikkort, hvorimod et keyboard bruges til at sende instruktioner til computeren. 
+
+                    Der findes også eksterne lagringsenheder som usb drive, cd, dvd, diskette, osv. Disse eksterne lagringsenheder tilkobles enten direkte til interfaces på bundkortet eller læses af bestemte enheder som en CD-ROM.
             </answer>
         </information>
         <information>
             <question>Beskriv Azure Cloud og hvad du kan bruge den til.</question>
-            <answer>
-
-            </answer>
+            <answer>Azure Cloud er en platform der tilbyder cloud baseret services der kan bruges til for eksempel at køre en MySQL database, eller en Spring Boot applikation. Når en service oprettes på Azure Cloud, så tildeler Azure Cloud applikationen en virtuel maskine hvor applikationen køres. Denne form for arkitektur gør det nemt og hurtigt at oprette nye applikationer, skalere efter behov, samt billigt at host forhold til hvis man selv skulle købe og administrere hardware og software. Azure Cloud er en services lavet af Microsoft, men Google, Amazon, og andre større tech virksomheder tilbyder lignende services.</answer>
         </information>
         <information>
             <question>Hvad er Raspberry Pi og hvad kan det bruges til?</question>
-            <answer>
+            <answer>En Raspberry Pi er en single-board computer hvilket betyder det er et enkelt board bestående af processor, RAM, Input/output, mm. Den er i stand til at køre et operativsystem, som opbevares på et SD-kort der tilkobles enheden. Der findes et operativsystem specifikt lavet til Raspberry Pi kaldet Raspberry Pi OS baseret på Linux Debian. 
 
+                    Da en Raspberry Pi er en lille computer er den i stand til at samme opgaver som alle andre computere inden for hardwaren og operativsystemets grænser. Den kan for eksempel bruges til at bygge en web server, NAS server, etc.
             </answer>
         </information>
         <information>
             <question>Hvilke typer harddiske findes i en computer og hvad er forskellen på dem?</question>
-            <answer>
+            <answer>To typer af harddiske der bruges i computere er de traditionelle mekaniske harddiske (ofte forkortet HDD) og Solid State Drive (SSD). 
 
+                    De traditionelle mekaniske harddiske består af en eller flere fysiske skiver hvor der kan skrives til eller læses fra. Hastigheden for de mekaniske harddiske bestemmes efter hvor mange rotationer pr minut de er i stand til (målt i RPM), som derefter kan omregnes til en bitrate som megabit pr. second (mbit/s).
+
+                    SSD er i kontrast til HDD ikke baseret på mekaniske roterende dele, men derimod i såkaldte halvledere (semiconductor på engelsk), hvilket gør dem mere robuste end HDD. Derudover, så angives hastigheden for SDD blot via bitrate, da der ikke er tale om nogle roterende dele.
+
+                    SSD er som regel hurtigere end HDD og har en lavere forsinkelse. Ser man på den prismæssige forskel mellem de to typer, er SDD som regel dyre end HDD.
             </answer>
         </information>
         <information>
             <question>Hvilke typer busser findes der i en computer?</question>
-            <answer>
+            <answer>Der findes to typer busses brugt i computere kaldet parallel bus og serial bus. Forskellen mellem de to typer er defineret af hvor mange kredsløb som bliver brugt til at sende data. I en seriel bus har man et enkelt kredsløb til at sende data og i et parallelt har man mindst to. 
 
+                    Derudover har en seriel bus nogle gange et separat kredsløb til at modtage, men kan godt sende og modtage på samme kredsløb, hvor imod en parallel bus som regel har to eller flere kredsløb til at modtage data.
             </answer>
         </information>
         <information>
             <question>Computernetværk: Hvad er forskellen på IP og MAC?</question>
-            <answer>
+            <answer>En Media Access Control Address (MAC adress) er en computers netværkskorts fysiske adresse og Internet Protocol Address (IP adress) er en adresse der bruges til at identificere en computer på et netværk.
 
+                    MAC adressen er defineret på forhånd af netværkskort producenten og er defineret via hexadecimaler og har en længde på 48-bit. I kontrast til MAC adressen er IP adressen en dynamisk adresse som er afhængig af hvilket netværk man er tilsluttet. 
+
+                    Man kan godt indstille en computer til at bruge en statisk IP adresse , men som udgangspunkt vil IP adressen ændre sig over tid i takt med at computeren bliver tændt og slukket, eller skifter netværk (netværket bruger en DHCP server).
             </answer>
         </information>
         <information>
             <question>Hvilke typer kategorier findes der for en PSU og hvad betyder de?</question>
-            <answer>
-
-            </answer>
+            <answer>PSU kan i relation til computere kategoriseres ud fra hvilken standard de tilhører. ATX standarden er udviklet af Intel og definere egenskaber som det fysiske interface. Før ATX brugte de fleste computere AT standarden. En stor forskel på AT og ATX er at ved slukning af en computer med en AT PSU, slukker strømforsyningen direkte, hvor imod slukkes en computer med en ATX strømforsyning er den endelig slukning styret af styresystemet. Der findes en lang række versioner af ATX standarden, for eksempel ATX12V 2.x og ATX 3.0.</answer>
         </information>
         <information>
             <question>Hvad er forskellen på RAM og Harddisk?</question>
-            <answer>
-
-            </answer>
+            <answer>RAM bruges til midlertidig at opbevare programmer og instrukser der skal udføres af en CPU, og en harddisk bruges til at opbevare permanent data som operativsystemet og filer. Derudover, så er en harddisk i stand til at opbevare data selv om computeren er sluttet, hvor RAM kun fungere så længe computeren er tændt. RAM og Harddisk adskiller sig også i forhold til hvor meget data de kan opbevare, RAM har som udgangspunkt en langt mindre kapacitet end en harddisk.</answer>
         </information>
         <information>
             <question>Hvad er et DBMS MySQL og hvad kan det bruges til?</question>
-            <answer>
+            <answer>DBMS står for database management system. Det primære formål med et DBMS er at håndtere hvordan data organiseres, opbevares og læses, osv. Der findes en række forskellige typer af DBMS som for eksempel RDBMS (Relational database management system). MySQL er et RDBMS udviklet af MySQL AB som senere blev opkøbt af det der i dag hedder Oracle. 
 
+                    Et RDBMS er baseret på Edgar F. Codds teori om “relational databases”. I et RDBMS er data organiseret i tabeller som består af rækker, kolonner, og celler. Hver række i en tabel repræsenterer en enkelt enhed af et specifikt objekt, og strukturen af det objekt er defineret via tabellens kolonner. For eksempel, kan man oprette en tabel til at opbevare brugere, hvor man har en kolonne der angiver e-mail, en anden der angiver password, osv. I dette eksempel vil hver enkelt bruger blive indsat i tabellen som en enkelt række.
+
+                    MySQL DBMS bruges til at opbevare data til forskellige typer af applikationer, for eksempel web applikationer. MySQL er for eksempel en af de primære databaser brugt til hjemmesider udviklet på Wordpress.   
             </answer>
         </information>
     </record>
@@ -125,52 +101,42 @@
                     Bruges til alt fra simpelt matematik til at beskrive klokken.
                     
                     #h5#2-talssystemet#/h5# En talrække mellem 0-1 (også kaldet det binære talsystem). 
-                    Bruges til beregninger i en computer. 
+                    Bruges til at repræsentere data i en computer, og lav eller høj spænding i et kredsløb.
             </answer>
         </information>
         <information>
             <question>Forklar hvordan man regner mellem binær og decimal.</question>
-            <answer>Decimal værdien for en bestemt bit kan findes ved at sætte rangeringen for en bit som eksponenten i formlen:  2^n 
-                    Bemærk rangeringen starter fra 0.
-
-                    #strong#Eksempel:#/strong#
-                    1111 1111 kan omregnes til decimal som: 
-                    Decimal = 2^7 + 2^6 + 2^5 + 2^4 + 2^3 + 2^2 + 2^1 + 2^0 
-                    Decimal = 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 
-                    Decimal = 255
+            <answer>Decimal værdien for en bestemt bit kan findes ved at sætte rangeringen for en bit som eksponenten i formlen: 2^n - Bemærk rangeringen starter fra 0.
+                    
+                    #strong#Eksempel#/strong#
+                    #img#/images/binary-to-decimal.png#/img#
             </answer>
         </information>
         <information>
             <question>Forklar hvordan man regner mellem binær og hexa decimal.</question>
-            <answer>1. Når man omregner fra binære tal til hexadecimaler opdeles de binære tal først i grupperinger på 4 bits. 
-                    2. De 4 bits kan i alt repræsentere et decimal tal mellem 0-15. 
-                    3. Når man har omregnet hver gruppering til et decimal tal mellem 0-15, så indsættes hexa decimal værdien (0-F).
-
-                    #strong#Eksempel:#/strong#
-                    1111111111 grupperes til 11 1111 1111 og herefter findes et decimal tal for hver gruppering:
-                    Hexadecimal = 2^1 + 2^0 | 2^3 + 2^2 + 2^1 + 2^0 | 2^3 + 2^2 + 2^1 + 2^0
-                    Hexadecimal = 3 | 15 | 15
-                    Hexadecimal = 3FF
+            <answer>1. Når man omregner fra binære tal til hexadecimaler opdeles de binære tal først i grupperinger på 4 bits.
+                    2. De 4 bits kan i alt repræsentere et decimal tal mellem 0-15.
+                    3. Når man har omregnet hver gruppering til et decimal tal mellem 0-15, så indsættes hexadecimal værdien (0-F).
+                    4. Til sidst sammensættes hexadecimal værdierne til en endelig hexadecimal.
+                    
+                    #strong#Eksempel#/strong#
+                    #img#/images/binary-to-hexadecimal.png#/img#
             </answer>
         </information>
         <information>
             <question>Forklar hvad forkortelserne DDL og DML og hvad de bruges til.</question>
-            <answer>Data Definition Language (DDL) og Data Manipulation Language (DML) er en undergruppe af Structured Query Language (SQL). Begge bruges i forbindelse med modificering af en relational database.
+            <answer>Data Definition Language (DDL) og Data Manipulation Language (DML) er en undergruppe af Structured Query Language (SQL).
 
-                    #h5#Data Definition Language (DDL)#/h5# DDL bliver brugt til at oprette og redigere tabeller.
-                    Dette inkludere DDL statements som CREATE, ALTER, og DROP. 
-
-                    #h5#Data Manipulation Language (DML)#/h5# DML bliver brugt til at oprette og redigere rækker i tabeller.
-                    Dette inkludere DML statements som INSERT, UPDATE, og DELETE.
+                    DDL bliver brugt til at oprette og redigere tabeller. Dette inkludere DDL statements som CREATE, ALTER, og DROP. DML bliver brugt til at oprette og redigere rækker i tabeller. Dette inkludere DML statements som INSERT, UPDATE, og DELETE.
             </answer>
         </information>
         <information>
             <question>Beskriv hvordan man opretter et MySQL DBMS på Azure og hvad vi kan bruge sådan et til.</question>
             <answer>MySQL DBMS på Azure er en cloudbaseret relational database. Azure har to forskellige modeller for at oprette MySQL databaser, flexible og single server. De to forskellige modeller adskiller sig ved pris, configuration, mm.
-                    En MySQL DBMS på Azure kan for eksempel bruges som en cloudbaseret database for en Spring Boot applikation.
 
-                    #h5#Oprettelse af MySQL DBMS på Azure#/h5# Der findes to metoder til at oprette et nyt MySQL DBMS, enten gennem https://portal.azure.com/ eller via Azure CLI.  
-                    På portalen kan for eksempel søge på Mysql Database også vælge mellem flexible og single, og via Azure CLI kan man bruge terminal kommandoen 'az mysql flexible-server create' efterfulgt af en række options.
+                    Et MySQL DBMS på Azure kan bruges som database til en lang række af applikationer som har behov for en delt database. For eksempel, hvis man har en native desktop applikation, så vil flere bruger kunne bruge tilgå den samme data, hvis applikation er sat op til at hente og skrive data til en et MySQL DBMS på Azure.
+
+                    Der findes to metoder til at oprette et nyt MySQL DBMS, enten gennem https://portal.azure.com/ eller via Azure CLI. På portalen kan for eksempel søge på MySQL Database også vælge mellem flexible og single, og via Azure CLI kan man bruge terminal kommandoen 'az mysql flexible-server create' efterfulgt af en række options.
             </answer>
         </information>
     </record>
@@ -179,26 +145,79 @@
         <title>Samtidighedsproblematikker</title>
         <information>
             <question>Beskriv hvad der gør et problem til et samtidighedsproblem gerne ift. jeres projekt.</question>
-            <answer>
+            <answer>Samtidighedsproblemer kan opstå i systemer som tillader flere klienter at læse og skrive til det samme data på samme tid. Man kan for eksempel støde ind i samtidighedsproblemer i hvis man bruger multithreading i en Java applikation, eller ved brug af en database.
 
+                    Et klassisk eksempel der bliver brugt i forbindelse med samtidighedsproblemer er i forbindelse med applikationer der opbevare en saldo over en brugers valuta. 
+
+                    For eksempel, man har to database transaktioner, T1 og T2, som operere på konto A. T1 starter med at læse og derefter formindske konto As saldo. T2 læser derefter konto As saldo og forøger den før T1 når at fuldføre sin transaktion. T1 fuldføre derefter transaktionen og T2s forøgelse af saldoen går derfor tabt. Scenariet (kendt som “lost update” problemet) efterlader konto A med en mindre saldo end den oprigtigt burde være.
             </answer>
         </information>
         <information>
             <question>Beskriv en type af samtidighedsproblemer og gerne praktisk.</question>
-            <answer>
+            <answer>Dirty Read, Unrepeatable Read, Lost Update Read og Phantom Read er forskellige typer af samtidighedsproblemer.
+
+                    Dirty Read opstår når en database transaktion læser data som er blevet ændret af en anden “uncommitted” transaktion som senere bliver rullet tilbage på grund af en fejl.
+
+                    #strong#Eksempel#/strong#
+                    1. To database transaktioner T1 og T2 udfører operationer på data A. 
+                    2. T1 læser og skriver til A.
+                    3. T2 fuldføre en læsning og skrivning til A før. T1 er fuldført. 
+                    4. T1 fejler efterfølgende og bliver rullet tilbage. 
+                    5. T2 er nu baseret på forkert værdi af A.
+                    
+                    #img#/images/dirty-read.png#/img#
+
+                    Unrepeatable Read opstår når en database transaktion læser data før og efter en anden database transaktion ændre den specifikke data.
+
+                    #strong#Eksempel#/strong#
+                    1. To database transaktioner T1 og T2 udfører operationer på data A.
+                    2. T1 læser A.
+                    3. T2 læser efterfølgende A.
+                    4. T1 skriver til A.
+                    5. T2 læser nu en ny version af A.
+                    
+                    #img#/images/unrepeatable-read.png#/img#
+
+                    Lost Update Read opstår når en database transaktion ændre noget specifikt data en anden “uncommitted” database transaktion er i gang med at ændre.
+
+                    #strong#Eksempel#/strong#
+                    1. To database transaktioner T1 og T2 udfører operationer på data A.
+                    2. T1 læser og skriver til A.
+                    3. T2 fuldføre en læsning og skrivning til A før T1 er fuldført.
+                    4. T1 fuldføre efterfølgende sin transaktion og T2s skrivning er derfor gået tabt.
+                    
+                    #img#/images/lost-update.png#/img#
+
+                    Phantom Read opstår når en database transaktion læser noget data før og efter en anden database transaktion sletter den specifikke data.
+
+                    #strong#Eksempel#/strong#
+                    1. To database transaktioner T1 og T2 udfører operationer på data A.
+                    2. T1 læser A, og T2 læser efterfølgende A.
+                    3. T1 sletter A.
+                    4. T2 forsøger at læse A som ikke længere eksisterer.
+                    
+                    #img#/images/phantom-read.png#/img#
 
             </answer>
         </information>
         <information>
             <question>Findes der nogle standard løsninger til at løse samtidighedsproblemer på?</question>
-            <answer>
+            <answer>Fire mulige løsninger til samtidighedsproblemer er “Locking”, “Read Before Write”, “Timestamping” eller blot at ignore det.
 
+                    Årsagen til man nogle gange blot kan ignorere et samtidighedsproblem er hvis problemet ikke opstår i en kritisk situation. For eksempel, hvis problemet opstår for nogle rækker i en tabel som kun en enkelt bruger har adgang til, så vil det muligvis kun ske på grund af brugeren forsøger at opdatere to steder på samme tid. Derudover, så kan det være en vurdering i forhold til hvor vigtig det er at undgå overskrive data mellem transaktioner, det er for eksempel mindre kritisk at overskrive indholdet af en kommentar til artikel end mængden af en valuta på en bankkonto. 
+
+                    “Locking” kan bruges til at låse bestemte rækker i en tabel i en database (kaldet pessimistic locking”). Når rækker er låst, så vil andre klienter eller processer ikke være i stand til at læse eller skrive til de specifikke rækker. Ulempen ved “locking” er at hvis en anden forsøger at læse eller skrive til de rækker, så vil forespørgslen til databasen vente på at rækkerne bliver frigivet fra låsen eller en timeout error.
+
+                    “Read Before Write” går ud på før en opdatering af en række i en tabel, så læser man først og fremmest rækken, derefter opdatere man rækken, så læser man rækken igen og ser om der er forskel på først og sidste læsning. Hvis der er en forskel kan man se at en anden transaktion har ændret rækken og man kan derefter annullere opdateringen.
+
+                    “Timestamping” fungere på samme måde som “Read Before Write”, og man kan også argumentere for det er det samme. Ved “timestamping” har man blot en kolonne i sin tabel som angiver hvornår en række sidst blev opdateret eller indsat, hvorefter man udføre samme operationer som i “Read Before Write”.
             </answer>
         </information>
         <information>
             <question>Beskriv Deadlock.</question>
-            <answer>
-                
+            <answer>Deadlock kan opstå når en eller flere database transaktioner forsøger at tilgå de samme rækker som har en lås. For eksempel, på figuren herunder ses to database transaktioner T1 og T2 der bliver eksekveret parallelt på samme tid. T1 låser to faktura med id 1 og 2, og T2 låser to konti med id 1 og 2. Derefter forsøger T1 at tilgå de to konti som T2 låste og T2 forsøger at tilgå de to faktura som T1 låste. De er nu i en situation hvor de venter på hinanden indtil databasen opdager deadlock situationen og annullere en af transaktionerne.
+                    
+                    #img#/images/deadlock.png#/img#
             </answer>
         </information>
     </record>
@@ -206,16 +225,48 @@
     <record>
         <title>Computernetværk</title>
         <information>
-            <question>Question 1</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <question>Hvad bruges DNS til ift. Computer netværk?</question>
+            <answer>Domain Name System (DNS) står for at oversætte domænenavne til IP-adresser. DNS består af en række forskellige typer servere som DNS Resolve server, Root server, Top Level Domain server og Authoritative name server. DNS resolve serveren er som regel hos ens Internet Service Provider (ISP), men man kan også bruge en anden som for eksempel Googles DNS (4.4.4.4, 8.8.8.8).
+                    
+                    #strong#Eksempel:#/strong# 
+                    1. Google.com bliver tilgået via en browser.
+                    2. Computeren tjekker den lokale DNS cache og hvis den ikke finder noget, så sender computeren en forespørgelse til en DNS resolve server.
+                    3. DNS resolve serveren tjekker også sin egen DNS cache, og hvis den ikke finder noget, så sender den en forespørgelse til en af de 13 Root servere.
+                    4. Root serveren besvarer forespørgelsen med hvilken Top Level domæne server den skal spørge efter en authoritative name server.
+                    5. Efter DNS resolve serveren har spurgt Top Level domæne server efter den authoritative name server, sender den en forespørgelse til den authoritative name server.
+                    6. Den authoritative name server besvarer med hvilken IP adressen som domænet skal oversættes til.
+                    7. DNS resolve serveren sender herefter information tilbage til computeren.
+            </answer>
         </information>
         <information>
-            <question>Question 2</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <question>Kan man se hvilke data (filer) der bruges af et webside? Hvis ja hvordan?</question>
+            <answer>En metode til at se hvilke filer der bruges af en webside er browseren Chromes udviklerværktøj. For eksempel, hvis man går ind på en hjemmeside via Chrome, højreklikker og trykker på “inspect element”, og derefter trykker på “Network”, så kan man, efter man har opdateret siden, se hvilke filer der bliver brugt af siden.
+                    
+                    #strong#Eksempel#/strong#
+                    #img#/images/chrome-inspect-network.JPG#/img#
+            </answer>
         </information>
         <information>
-            <question>Question 3</question>
-            <answer>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</answer>
+            <question>Hvordan kan man kende forskel på IPV4 og IPV6?</question>
+            <answer>IPV4 adskiller sig fra IPV6 ved at være en ældre IP protocol som kun har en 32-bit adresse længde modsat IPV6 128-bit adresse længde. Derudover så er en IPV4 adresse defineret via decimaler, og IPV6 via hexadecimaler.
+                
+                    Fordelen ved at have 128-bit til rådighed er at man har en større mængde af unikke adresse til rådighed. Hvilket også er årsagen til Internet Engineering Task Force (IETF) udviklede protokollen tilbage i 90'erne. Behovet for at have flere adresser til rådighed skyldes mængden af unikke enheder konstant vokser i takt med flere klienter som telefoner, konsoller, laptops, desktops, mm.
+                    
+                    #strong#Eksempel på en IPV4 og IPV6 adresse#/strong#
+                    #strong#IPV4 adresse:#/strong# 192.168.1.1
+                    #strong#IPV6 adresse:#/strong# 0000:0000:0000:0000:0000:ffff:c0a8:0101
+            </answer>
+        </information>
+        <information>
+            <question>Vis eller beskriv de kommandoer du kender ift. netværk som kan bruges i et terminal vindue. Det kan f.eks. være "ping" kommandoen.</question>
+            <answer>“ping” kan bruges til at se om det er muligt at nå en bestemt netværksadresse. Man kan for eksempel bruge “ping” til at debug om man har DNS problemer ved først at ping et domæne og efterfølgende prøve at ping en IP. Hvis man ikke får et svar når man forsøger at ping domænet, men gør det når man “pinger” en IP adresse, så har ens computer formentlig udfordringer ved at oversætte domænenavnet til en IP.
+
+                    “tracert” kan bruges til at undersøge hvilke rute ens pakke tager til en bestemt netværksadresse.
+
+                    “ipconfig” kan bruges til at undersøge hvilken lokal IP adresse, subnet, og default gateway en computer er konfigureret med.
+
+                    “nslookup” kan bruges til at undersøge hvilken IP adresse et domænenavn kan oversættes til.
+            </answer>
         </information>
     </record>
 

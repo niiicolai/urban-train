@@ -20,6 +20,8 @@ function Record(props) {
             answer = answer.replace(/#h5#/g, "<h5>");
             answer = answer.replace(/#\/h5#/g, "</h5>");
             answer = answer.replace(/#hr#/g, "<hr />");
+            answer = answer.replace(/#img#/g, "<img src='");
+            answer = answer.replace(/#\/img#/g, "' style='max-width:100%' />");
 
             setAnswer(answer);
         }
